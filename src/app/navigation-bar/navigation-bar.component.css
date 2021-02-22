@@ -1,0 +1,32 @@
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.items{
+    top: 68px;
+    left: 1030px;
+    width: 103px;
+    height: 34px;
+    font: normal normal normal 25px/34px Open Sans;
+    
+    margin: 0px 5px 0px;
+    overflow: hidden;
+}
+
+.nav-items:hover{
+    color: #222222;
+    opacity: 1;
+}
+
+.navbar-brand{
+    top: 27px;
+    left: 120px;
+    width: 123px;
+    height: 123px;
+}

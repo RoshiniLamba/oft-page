@@ -1,0 +1,15 @@
+.btn-gs{
+    top: 76px;
+    left: 1658px;
+    width: 166px;
+    height: 45px;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    color: white;
+    margin: 0px 5px;
+}
+
+.btn-gs:hover{
+    box-shadow: 0px 0px 20px #00000040;
+    opacity: 1;
+}

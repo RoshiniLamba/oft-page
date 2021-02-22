@@ -1,0 +1,24 @@
+.home{
+    width: 1983px;
+    height: 2192px;
+    background-image: url('src/assets/images/circle.png'); 
+    /* background-repeat: no-repeat; */
+}
+.textstyle{
+    top: 200px;
+    left: 0px;
+    /* width: 407px; */
+    /* height: 98px; */
+    font-family: "Montserrat-Medium";
+    font-size: 48px;
+}
+
+.imagestyle{
+    margin: 50px;
+}
+
+.content{
+    top: 450px;
+    left: 50px;
+    background-image: url('../assets/images/sol_wave_bg.svg');
+}
