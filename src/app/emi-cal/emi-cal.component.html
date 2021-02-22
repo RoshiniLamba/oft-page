@@ -1,0 +1,87 @@
+<div class="container">
+    <div class="spacer">
+        <div class="row">
+            <div class="col-lg-8  col-lg-offset-1">
+                <div class="well">
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <span class="left-title">
+                                Monthly Income
+                            </span>
+                        </div>
+                        <ng5-slider [(value)]="pemi.value" [options]="poptions">
+                        </ng5-slider>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <span class="left-title">
+                                Monthly expense
+                            </span>
+                        </div>
+                        <ng5-slider [(value)]="remi.value" [options]="roptions">
+                        </ng5-slider>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <span class="left-title">Repayment Tenure</span>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="input-group-append">
+                                <select>
+                                    <option>6 months</option>
+                                    <option> 1 year </option>
+                                    <option> 2 years</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="left-title">Do you have an existing loan?</span>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="input-group-append">
+                                <input type="radio">
+                            </div>
+                        </div>
+                        <span> Emi of existing loan (optional)</span>
+                        <input type="number">
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+
+                    <div class="jusify-center">
+                        <h5>
+                            Loan Amount
+                        </h5>
+                        <span class="result">
+                            {{result.emi || "--"}}
+                        </span>
+                    </div>
+
+                    <hr />
+
+                    <div>
+                        <h5>
+                            Your emi will be
+                        </h5>
+                        <span class="result">
+                            {{result.yemi || "--"}}
+                        </span>
+                    </div>
+                    <button type="button" class="btn btn-money">Get money</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
